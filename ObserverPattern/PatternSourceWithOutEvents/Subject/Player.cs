@@ -1,13 +1,25 @@
 ﻿using ObserverPattern.Interfaces;
 
-namespace ObserverPattern.PatternSourceWithOutEvents.Subject
+namespace ObserverPattern.PatternSourceWithoutEvents.Subject
 {
     /// <summary>
     /// Сущность игрока за которой наблюдают
     /// </summary>
     internal class Player : ISubject
     {
+        /// <summary>
+        /// Текущее здоровье игрока
+        /// </summary>
         private int _health;
+
+        /// <summary>
+        /// Конструктор
+        /// </summary>
+        /// <param name="startHealth">Стартовое здоровье</param>
+        public Player(int startHealth)
+        {
+            _health = startHealth;
+        }
 
         /// <summary>
         /// Здоровье игрока

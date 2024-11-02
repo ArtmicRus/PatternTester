@@ -1,7 +1,7 @@
 ﻿using ObserverPattern.Interfaces;
-using ObserverPattern.PatternSource.Subject;
+using ObserverPattern.PatternSourceWithoutEvents.Subject;
 
-namespace ObserverPattern.PatternSourceWithOutEvents.Observers
+namespace ObserverPattern.PatternSourceWithoutEvents.Observers
 {
     /// <summary>
     /// Сущность шкала здоровья которая подписано на изменение здоровья у игрока (Player)
