@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{D369CA47-35BA-4FBF-95A2-C04BB534D1BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{A647C05A-712C-48E2-8D5A-1A4B050CCF1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{A647C05A-712C-48E2-8D5A-1A4B050CCF1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{E84CBF41-DED1-4060-82C0-320C0999D41A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A647C05A-712C-48E2-8D5A-1A4B050CCF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A647C05A-712C-48E2-8D5A-1A4B050CCF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A647C05A-712C-48E2-8D5A-1A4B050CCF1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84CBF41-DED1-4060-82C0-320C0999D41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84CBF41-DED1-4060-82C0-320C0999D41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84CBF41-DED1-4060-82C0-320C0999D41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84CBF41-DED1-4060-82C0-320C0999D41A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
