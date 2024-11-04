@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Паттерны повед
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Структурные паттерны", "Структурные паттерны", "{1FEB55AF-B739-4CCD-A478-512B1AFD22ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{2D0D8114-2C90-43C1-A6CE-E6736164BE50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{681ADCDA-AE02-4723-99BA-428A6C2060AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{681ADCDA-AE02-4723-99BA-428A6C2060AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{681ADCDA-AE02-4723-99BA-428A6C2060AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0D8114-2C90-43C1-A6CE-E6736164BE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0D8114-2C90-43C1-A6CE-E6736164BE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0D8114-2C90-43C1-A6CE-E6736164BE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0D8114-2C90-43C1-A6CE-E6736164BE50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{A647C05A-712C-48E2-8D5A-1A4B050CCF1F} = {66C7A02C-2376-48DC-80FE-160AAE06D1C6}
 		{E84CBF41-DED1-4060-82C0-320C0999D41A} = {7160C36B-0EE6-4FEA-BBB1-8D4750979DB8}
 		{681ADCDA-AE02-4723-99BA-428A6C2060AB} = {7160C36B-0EE6-4FEA-BBB1-8D4750979DB8}
+		{2D0D8114-2C90-43C1-A6CE-E6736164BE50} = {1FEB55AF-B739-4CCD-A478-512B1AFD22ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FCAC696-416B-49C4-9541-69E17B27E868}
