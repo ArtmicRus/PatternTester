@@ -1,4 +1,7 @@
-﻿internal class Program
+﻿using DecoratorPattern.BaseClasses;
+using DecoratorPattern.Decorator;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -8,6 +11,11 @@
         // Для определения нового функционала в классах нередко используется наследование.
         // Декораторы же предоставляет наследованию более гибкую альтернативу,
         // поскольку позволяют динамически в процессе выполнения определять новые возможности у объектов.
-        Console.WriteLine("Hello, World!");
+
+
+        var component = new Component();
+        var concreteDecorator = new ConcreteDecorator(component);
+
+        concreteDecorator.Operation();
     }
 }

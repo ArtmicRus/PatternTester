@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# После крутой обновы в Visual Studio при использовании английского языка VS, 
+# русский язык на орфографию не проверяется
+# Эти настройки возвращают эту проверку
+spelling_languages = en-US,ru-RU
+spelling_exclusion_path = .\exclusion.dic
