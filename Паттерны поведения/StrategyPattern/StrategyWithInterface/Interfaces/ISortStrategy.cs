@@ -5,6 +5,9 @@
     /// </summary>
     internal interface ISortStrategy
     {
+        /// <summary>
+        /// Метод для реализации стратегии
+        /// </summary>
         public void Sort();
     }
 }

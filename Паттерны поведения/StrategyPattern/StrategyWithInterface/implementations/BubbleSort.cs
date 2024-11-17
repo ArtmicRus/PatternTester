@@ -7,6 +7,7 @@ namespace StrategyPattern.StrategyWithInterface.implementations
     /// </summary>
     internal class BubbleSort : ISortStrategy
     {
+        /// <inheritdoc/>
         public void Sort()
         {
             Console.WriteLine("BubbleSort correct");

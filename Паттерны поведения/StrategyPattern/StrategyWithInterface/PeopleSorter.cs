@@ -1,9 +1,4 @@
 ﻿using StrategyPattern.StrategyWithInterface.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StrategyPattern.StrategyWithInterface
 {
@@ -12,11 +7,21 @@ namespace StrategyPattern.StrategyWithInterface
     /// </summary>
     internal class PeopleSorter
     {
+        /// <summary>
+        /// Конструктор
+        /// </summary>
+        /// <param name="sortStrategy">Стратегия сортировки</param>
         public PeopleSorter(ISortStrategy sortStrategy)
         {
             SortStrategy = sortStrategy;
         }
 
+        /// <summary>
+        /// Обёртка вызова сортировки из самого объекта
+        /// </summary>
+        /// <remarks>
+        /// Можно обойтись без обёртки тогда нужно к методу поля SortStrategy объекта
+        /// </remarks>
         public void Sort()
         {
             SortStrategy.Sort();

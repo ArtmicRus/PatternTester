@@ -2,11 +2,15 @@
 
 namespace AbstractFactory.VehicleImplications
 {
+    /// <summary>
+    /// Сущность машины
+    /// </summary>
     internal class Motorcycle : IVehicle
     {
+        /// <inheritdoc/>
         public void Drive()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Еду на мотоцикле");
         }
     }
 }
