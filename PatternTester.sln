@@ -38,7 +38,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibilityPrincip
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "Паттерны поведения\TemplateMethod\TemplateMethod.csproj", "{19AC2BB4-EEB1-4467-B7CE-209EFCDD0835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Порождающие паттерны\Singleton\Singleton.csproj", "{EFDD4640-C239-4838-907B-45DEA2C9B107}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Порождающие паттерны\Singleton\Singleton.csproj", "{EFDD4640-C239-4838-907B-45DEA2C9B107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "Структурные паттерны\AdapterPattern\AdapterPattern.csproj", "{491C01A4-1F09-4217-B30B-4E0969BB3F91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,6 +96,10 @@ Global
 		{EFDD4640-C239-4838-907B-45DEA2C9B107}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFDD4640-C239-4838-907B-45DEA2C9B107}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFDD4640-C239-4838-907B-45DEA2C9B107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491C01A4-1F09-4217-B30B-4E0969BB3F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491C01A4-1F09-4217-B30B-4E0969BB3F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491C01A4-1F09-4217-B30B-4E0969BB3F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491C01A4-1F09-4217-B30B-4E0969BB3F91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,6 +117,7 @@ Global
 		{A03FCD74-588C-48FB-8A21-DBAFC09C13E1} = {70618137-7A1A-4C36-BCDD-8D4B40C59F99}
 		{19AC2BB4-EEB1-4467-B7CE-209EFCDD0835} = {66C7A02C-2376-48DC-80FE-160AAE06D1C6}
 		{EFDD4640-C239-4838-907B-45DEA2C9B107} = {7160C36B-0EE6-4FEA-BBB1-8D4750979DB8}
+		{491C01A4-1F09-4217-B30B-4E0969BB3F91} = {1FEB55AF-B739-4CCD-A478-512B1AFD22ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FCAC696-416B-49C4-9541-69E17B27E868}
