@@ -46,6 +46,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "Пор�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "Порождающие паттерны\BuilderPattern\BuilderPattern.csproj", "{5BF1FD66-CAFF-4D26-98AA-95560254363D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "Структурные паттерны\FacadePattern\FacadePattern.csproj", "{EF1EB1A9-0BCE-4F55-B898-9FF3932E6EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "Структурные паттерны\CompositePattern\CompositePattern.csproj", "{82E9BB2C-192F-4A42-A020-AF4E17318206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "Структурные паттерны\ProxyPattern\ProxyPattern.csproj", "{27CD6654-A91D-43F2-BD50-68AFF78DF2BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "Структурные паттерны\BridgePattern\BridgePattern.csproj", "{1FC9F560-79BF-4380-9E9E-F0938C323DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Структурные паттерны\Flyweight\Flyweight.csproj", "{C004CC61-CDE4-40C1-9BA9-5457E74F6712}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -112,6 +122,26 @@ Global
 		{5BF1FD66-CAFF-4D26-98AA-95560254363D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BF1FD66-CAFF-4D26-98AA-95560254363D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BF1FD66-CAFF-4D26-98AA-95560254363D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1EB1A9-0BCE-4F55-B898-9FF3932E6EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1EB1A9-0BCE-4F55-B898-9FF3932E6EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1EB1A9-0BCE-4F55-B898-9FF3932E6EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1EB1A9-0BCE-4F55-B898-9FF3932E6EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E9BB2C-192F-4A42-A020-AF4E17318206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E9BB2C-192F-4A42-A020-AF4E17318206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E9BB2C-192F-4A42-A020-AF4E17318206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E9BB2C-192F-4A42-A020-AF4E17318206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27CD6654-A91D-43F2-BD50-68AFF78DF2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CD6654-A91D-43F2-BD50-68AFF78DF2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CD6654-A91D-43F2-BD50-68AFF78DF2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CD6654-A91D-43F2-BD50-68AFF78DF2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC9F560-79BF-4380-9E9E-F0938C323DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC9F560-79BF-4380-9E9E-F0938C323DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC9F560-79BF-4380-9E9E-F0938C323DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC9F560-79BF-4380-9E9E-F0938C323DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C004CC61-CDE4-40C1-9BA9-5457E74F6712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C004CC61-CDE4-40C1-9BA9-5457E74F6712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C004CC61-CDE4-40C1-9BA9-5457E74F6712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C004CC61-CDE4-40C1-9BA9-5457E74F6712}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,6 +162,11 @@ Global
 		{491C01A4-1F09-4217-B30B-4E0969BB3F91} = {1FEB55AF-B739-4CCD-A478-512B1AFD22ED}
 		{AF827CE3-B3F4-468D-A915-B29A72394C9B} = {7160C36B-0EE6-4FEA-BBB1-8D4750979DB8}
 		{5BF1FD66-CAFF-4D26-98AA-95560254363D} = {7160C36B-0EE6-4FEA-BBB1-8D4750979DB8}
+		{EF1EB1A9-0BCE-4F55-B898-9FF3932E6EBC} = {1FEB55AF-B739-4CCD-A478-512B1AFD22ED}
+		{82E9BB2C-192F-4A42-A020-AF4E17318206} = {1FEB55AF-B739-4CCD-A478-512B1AFD22ED}
+		{27CD6654-A91D-43F2-BD50-68AFF78DF2BB} = {1FEB55AF-B739-4CCD-A478-512B1AFD22ED}
+		{1FC9F560-79BF-4380-9E9E-F0938C323DC5} = {1FEB55AF-B739-4CCD-A478-512B1AFD22ED}
+		{C004CC61-CDE4-40C1-9BA9-5457E74F6712} = {1FEB55AF-B739-4CCD-A478-512B1AFD22ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FCAC696-416B-49C4-9541-69E17B27E868}
