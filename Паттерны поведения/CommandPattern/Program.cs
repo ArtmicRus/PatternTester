@@ -1,4 +1,6 @@
-﻿namespace CommandPattern
+﻿using CommandPattern.Examples.Metanit.Entities;
+
+namespace CommandPattern
 {
     internal class Program
     {
@@ -11,6 +13,14 @@
 
             // Команды могут использовать параметры, которые передают ассоциированную с командой информацию.
             // Кроме того, команды могут ставиться в очередь и также могут быть отменены.
+
+            Pult pult = new Pult();
+            TV tv = new TV();
+            pult.SetCommand(new TVOnCommand(tv));
+            pult.PressButton();
+            pult.PressUndo();
+
+            Console.Read();
         }
     }
 }
