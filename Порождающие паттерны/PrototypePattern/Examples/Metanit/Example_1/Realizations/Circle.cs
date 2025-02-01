@@ -1,6 +1,6 @@
-﻿using PrototypePattern.Examples.Metanit.Interfaces;
+﻿using PrototypePattern.Examples.Metanit.Example_1.Interfaces;
 
-namespace PrototypePattern.Examples.Metanit.Realizations
+namespace PrototypePattern.Examples.Metanit.Example_1.Realizations
 {
 
     class Circle : IFigure
@@ -13,7 +13,7 @@ namespace PrototypePattern.Examples.Metanit.Realizations
 
         public IFigure Clone()
         {
-            return new Circle(this.radius);
+            return new Circle(radius);
         }
         public void GetInfo()
         {

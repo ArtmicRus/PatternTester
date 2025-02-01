@@ -1,6 +1,6 @@
-﻿using PrototypePattern.Examples.Metanit.Interfaces;
+﻿using PrototypePattern.Examples.Metanit.Example_1.Interfaces;
 
-namespace PrototypePattern.Examples.Metanit.Realizations
+namespace PrototypePattern.Examples.Metanit.Example_1.Realizations
 {
     class Rectangle : IFigure
     {
@@ -14,7 +14,7 @@ namespace PrototypePattern.Examples.Metanit.Realizations
 
         public IFigure Clone()
         {
-            return new Rectangle(this.width, this.height);
+            return new Rectangle(width, height);
         }
         public void GetInfo()
         {
