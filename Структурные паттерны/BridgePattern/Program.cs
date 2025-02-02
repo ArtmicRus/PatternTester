@@ -1,4 +1,7 @@
-﻿namespace BridgePattern
+﻿using BridgePattern.Examples.Metanit.Abstractions;
+using BridgePattern.Examples.Metanit.Realizations;
+
+namespace BridgePattern
 {
     internal class Program
     {
@@ -11,6 +14,15 @@
             // Даже если мы отделим абстракцию от конкретных реализаций, то у нас все равно
             // все наследуемые классы будут жестко привязаны к интерфейсу, определяемому в базовом абстрактном классе.
             // Для преодоления жестких связей и служит паттерн Мост.
+
+            // создаем нового программиста, он работает с с++
+            Programmer freelancer = new FreelanceProgrammer(new CPPLanguage());
+            freelancer.DoWork();
+            freelancer.EarnMoney();
+            // пришел новый заказ, но теперь нужен c#
+            freelancer.Language = new CSharpLanguage();
+            freelancer.DoWork();
+            freelancer.EarnMoney();
         }
     }
 }
