@@ -1,4 +1,4 @@
-﻿namespace AdapterPattern.MetanitExamples.Example2.Interfaces
+﻿namespace AdapterPattern.Examples.Metanit.Example2.Interfaces
 {
     public interface IAnimal
     {

@@ -1,4 +1,4 @@
-﻿namespace AdapterPattern.MetanitExamples.Example1
+﻿namespace AdapterPattern.Examples.Metanit.Example1
 {
     /// <summary>
     /// Класс, к которому надо адаптировать другой класс  

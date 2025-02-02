@@ -1,6 +1,7 @@
-﻿using AdapterPattern.MetanitExamples.Example2.Interfaces;
+﻿using AdapterPattern.Examples.Metanit.Example2;
+using AdapterPattern.Examples.Metanit.Example2.Interfaces;
 
-namespace AdapterPattern.MetanitExamples.Example2.Adapter
+namespace AdapterPattern.Examples.Metanit.Example2.Adapter
 {
     /// <summary>
     /// Адаптер от Camel к ITransport

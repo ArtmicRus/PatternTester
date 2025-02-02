@@ -1,6 +1,6 @@
-﻿using AdapterPattern.MetanitExamples.Example2.Adapter;
-using AdapterPattern.MetanitExamples.Example2.Interfaces;
-using AdapterPattern.MetanitExamples.Example2;
+﻿using AdapterPattern.Examples.Metanit.Example2;
+using AdapterPattern.Examples.Metanit.Example2.Adapter;
+using AdapterPattern.Examples.Metanit.Example2.Interfaces;
 
 internal class Program
 {
@@ -8,6 +8,8 @@ internal class Program
     {
         // Паттерн Адаптер (Adapter) предназначен для преобразования интерфейса одного класса в интерфейс другого.
         // Благодаря реализации данного паттерна мы можем использовать вместе классы с несовместимыми интерфейсами.
+
+        #region Example 2
 
         // путешественник
         Driver driver = new Driver();
@@ -21,5 +23,7 @@ internal class Program
         ITransport camelTransport = new CamelToTransportAdapter(camel);
         // продолжаем путь по пескам пустыни
         driver.Travel(camelTransport);
+
+        #endregion
     }
 }

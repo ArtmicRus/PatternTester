@@ -1,6 +1,6 @@
-﻿using AdapterPattern.MetanitExamples.Example2.Interfaces;
+﻿using AdapterPattern.Examples.Metanit.Example2.Interfaces;
 
-namespace AdapterPattern.MetanitExamples.Example2
+namespace AdapterPattern.Examples.Metanit.Example2
 {
     class Auto : ITransport
     {
