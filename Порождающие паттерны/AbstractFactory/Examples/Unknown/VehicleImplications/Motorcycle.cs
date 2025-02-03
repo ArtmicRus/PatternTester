@@ -1,6 +1,6 @@
-﻿using AbstractFactory.Interfaces;
+﻿using AbstractFactory.Examples.Unknown.Interfaces;
 
-namespace AbstractFactory.VehicleImplications
+namespace AbstractFactory.Examples.Unknown.VehicleImplications
 {
     /// <summary>
     /// Сущность машины

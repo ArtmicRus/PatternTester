@@ -1,6 +1,6 @@
-﻿using AbstractFactory.Interfaces;
+﻿using AbstractFactory.Examples.Unknown.Interfaces;
 
-namespace AbstractFactory.EngineImplications
+namespace AbstractFactory.Examples.Unknown.EngineImplications
 {
     /// <summary>
     /// Сущность двигателя машины

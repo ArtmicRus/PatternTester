@@ -1,4 +1,4 @@
-﻿namespace AbstractFactory.Interfaces
+﻿namespace AbstractFactory.Examples.Unknown.Interfaces
 {
     /// <summary>
     /// Интерфейс двигателя

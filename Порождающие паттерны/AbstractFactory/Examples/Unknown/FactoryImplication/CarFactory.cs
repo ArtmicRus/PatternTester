@@ -1,8 +1,8 @@
-﻿using AbstractFactory.EngineImplications;
-using AbstractFactory.Interfaces;
-using AbstractFactory.VehicleImplications;
+﻿using AbstractFactory.Examples.Unknown.EngineImplications;
+using AbstractFactory.Examples.Unknown.Interfaces;
+using AbstractFactory.Examples.Unknown.VehicleImplications;
 
-namespace AbstractFactory.FactoryImplication
+namespace AbstractFactory.Examples.Unknown.FactoryImplication
 {
     /// <summary>
     /// Фабрика комплексного создания объекта Car
