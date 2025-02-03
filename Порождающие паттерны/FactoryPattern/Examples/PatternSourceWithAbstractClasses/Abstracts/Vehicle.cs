@@ -1,4 +1,4 @@
-﻿namespace FactoryPattern.PatternSourceWithAbstractClasses.Abstracts
+﻿namespace FactoryPattern.Examples.PatternSourceWithAbstractClasses.Abstracts
 {
     /// <summary>
     /// Абстрактный колёсный объект

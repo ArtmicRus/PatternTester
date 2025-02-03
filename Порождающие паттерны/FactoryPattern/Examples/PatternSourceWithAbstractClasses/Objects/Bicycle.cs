@@ -1,6 +1,6 @@
-﻿using FactoryPattern.PatternSourceWithAbstractClasses.Abstracts;
+﻿using FactoryPattern.Examples.PatternSourceWithAbstractClasses.Abstracts;
 
-namespace FactoryPattern.PatternSourceWithAbstractClasses.Objects
+namespace FactoryPattern.Examples.PatternSourceWithAbstractClasses.Objects
 {
     /// <summary>
     /// Объект велосипеда

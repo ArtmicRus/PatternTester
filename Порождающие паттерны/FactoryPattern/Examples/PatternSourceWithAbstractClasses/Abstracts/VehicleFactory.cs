@@ -1,4 +1,6 @@
-﻿namespace FactoryPattern.PatternSourceWithAbstractClasses.Abstracts
+﻿using FactoryPattern.Examples.PatternSourceWithAbstractClasses.Abstracts;
+
+namespace FactoryPattern.PatternSourceWithAbstractClasses.Abstracts
 {
     /// <summary>
     /// Фабрика по созданию колёсных транспортных средств

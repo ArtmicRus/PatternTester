@@ -1,4 +1,5 @@
-﻿using FactoryPattern.PatternSourceWithAbstractClasses.Abstracts;
+﻿using FactoryPattern.Examples.PatternSourceWithAbstractClasses.Abstracts;
+using FactoryPattern.PatternSourceWithAbstractClasses.Abstracts;
 using FactoryPattern.PatternSourceWithAbstractClasses.Objects;
 
 namespace FactoryPattern.PatternSourceWithAbstractClasses.Factories
