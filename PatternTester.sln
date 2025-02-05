@@ -42,35 +42,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Порожда
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "Структурные паттерны\AdapterPattern\AdapterPattern.csproj", "{491C01A4-1F09-4217-B30B-4E0969BB3F91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "Порождающие паттерны\PrototypePattern\PrototypePattern.csproj", "{AF827CE3-B3F4-468D-A915-B29A72394C9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern", "Порождающие паттерны\PrototypePattern\PrototypePattern.csproj", "{AF827CE3-B3F4-468D-A915-B29A72394C9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "Порождающие паттерны\BuilderPattern\BuilderPattern.csproj", "{5BF1FD66-CAFF-4D26-98AA-95560254363D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "Порождающие паттерны\BuilderPattern\BuilderPattern.csproj", "{5BF1FD66-CAFF-4D26-98AA-95560254363D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "Структурные паттерны\FacadePattern\FacadePattern.csproj", "{EF1EB1A9-0BCE-4F55-B898-9FF3932E6EBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadePattern", "Структурные паттерны\FacadePattern\FacadePattern.csproj", "{EF1EB1A9-0BCE-4F55-B898-9FF3932E6EBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "Структурные паттерны\CompositePattern\CompositePattern.csproj", "{82E9BB2C-192F-4A42-A020-AF4E17318206}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "Структурные паттерны\CompositePattern\CompositePattern.csproj", "{82E9BB2C-192F-4A42-A020-AF4E17318206}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "Структурные паттерны\ProxyPattern\ProxyPattern.csproj", "{27CD6654-A91D-43F2-BD50-68AFF78DF2BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPattern", "Структурные паттерны\ProxyPattern\ProxyPattern.csproj", "{27CD6654-A91D-43F2-BD50-68AFF78DF2BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "Структурные паттерны\BridgePattern\BridgePattern.csproj", "{1FC9F560-79BF-4380-9E9E-F0938C323DC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "Структурные паттерны\BridgePattern\BridgePattern.csproj", "{1FC9F560-79BF-4380-9E9E-F0938C323DC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Структурные паттерны\Flyweight\Flyweight.csproj", "{C004CC61-CDE4-40C1-9BA9-5457E74F6712}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Структурные паттерны\Flyweight\Flyweight.csproj", "{C004CC61-CDE4-40C1-9BA9-5457E74F6712}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "Паттерны поведения\CommandPattern\CommandPattern.csproj", "{7E7CE769-ACB4-4F91-9717-AE9B245B2B4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "Паттерны поведения\CommandPattern\CommandPattern.csproj", "{7E7CE769-ACB4-4F91-9717-AE9B245B2B4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "Паттерны поведения\IteratorPattern\IteratorPattern.csproj", "{8D2D1BD6-0D97-4E5A-96C8-9923ED38B53B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "Паттерны поведения\IteratorPattern\IteratorPattern.csproj", "{8D2D1BD6-0D97-4E5A-96C8-9923ED38B53B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "Паттерны поведения\StatePattern\StatePattern.csproj", "{2FD06845-B305-4783-8953-7DEA995DB661}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "Паттерны поведения\StatePattern\StatePattern.csproj", "{2FD06845-B305-4783-8953-7DEA995DB661}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "Паттерны поведения\ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{22327647-4B39-4818-B784-F3373FE98F20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityPattern", "Паттерны поведения\ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{22327647-4B39-4818-B784-F3373FE98F20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterPattern", "Паттерны поведения\InterpreterPattern\InterpreterPattern.csproj", "{63C200FF-73EE-4CCB-A459-99EDA3D81AC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterpreterPattern", "Паттерны поведения\InterpreterPattern\InterpreterPattern.csproj", "{63C200FF-73EE-4CCB-A459-99EDA3D81AC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "Паттерны поведения\MediatorPattern\MediatorPattern.csproj", "{FB33BF3A-4DD8-4F80-940E-682C7E86CDA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern", "Паттерны поведения\MediatorPattern\MediatorPattern.csproj", "{FB33BF3A-4DD8-4F80-940E-682C7E86CDA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "Паттерны поведения\MementoPattern\MementoPattern.csproj", "{EF3C2B37-72A0-4D21-828F-C3C99409014C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern", "Паттерны поведения\MementoPattern\MementoPattern.csproj", "{EF3C2B37-72A0-4D21-828F-C3C99409014C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "Паттерны поведения\VisitorPattern\VisitorPattern.csproj", "{6767C2CB-EA56-4E5C-8781-D4299AEE6FE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorPattern", "Паттерны поведения\VisitorPattern\VisitorPattern.csproj", "{6767C2CB-EA56-4E5C-8781-D4299AEE6FE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
