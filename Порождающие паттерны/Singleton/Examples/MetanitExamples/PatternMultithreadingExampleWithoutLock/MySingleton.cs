@@ -1,4 +1,4 @@
-﻿namespace Singleton.MetanitExamples.PatternMultithreadingExampleWithoutLock
+﻿namespace Singleton.Examples.MetanitExamples.PatternMultithreadingExampleWithoutLock
 {
     internal class MySingleton
     {
@@ -8,7 +8,7 @@
 
         private MySingleton()
         {
-            Date = System.DateTime.Now.TimeOfDay.ToString();
+            Date = DateTime.Now.TimeOfDay.ToString();
         }
 
         public static MySingleton GetInstance()

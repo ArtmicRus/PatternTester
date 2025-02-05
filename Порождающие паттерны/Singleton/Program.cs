@@ -1,7 +1,8 @@
-﻿using Singleton.MetanitExamples.PatternLazyExample;
-using Singleton.MetanitExamples.PatternMultithreadingExample;
-using Singleton.MetanitExamples.PatternMultithreadingExampleWithoutLock;
-using Singleton.MetanitExamples.PatternSimpleExample;
+﻿using Singleton.Examples.MetanitExamples.PatternLazyExample;
+using Singleton.Examples.MetanitExamples.PatternMultithreadingExample;
+using Singleton.Examples.MetanitExamples.PatternMultithreadingExampleWithoutLock;
+using Singleton.Examples.MetanitExamples.PatternSimpleExample;
+using Singleton.Examples.Youtube.BuilderLine.Entity;
 
 internal class Program
 {
@@ -82,6 +83,17 @@ internal class Program
 
         Console.WriteLine($"Main {DateTime.Now.TimeOfDay}");
         Console.WriteLine(MyLazySingleton.text);
+
+        #endregion
+
+
+        #region BuilderLine
+
+        //DatabaseHelper databaseHelper = new DatabaseHelper(); Не получится так как прватный
+
+        DatabaseHelper.GetConnection().IncertData("123");
+
+        Console.WriteLine("Выборка данных из БД: " + DatabaseHelper.GetConnection().SelectData());
 
         #endregion
     }

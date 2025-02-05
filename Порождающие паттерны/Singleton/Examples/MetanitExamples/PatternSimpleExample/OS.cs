@@ -1,4 +1,4 @@
-﻿namespace Singleton.MetanitExamples.PatternSimpleExample
+﻿namespace Singleton.Examples.MetanitExamples.PatternSimpleExample
 {
     /// <summary>
     /// Операционная система компьютера

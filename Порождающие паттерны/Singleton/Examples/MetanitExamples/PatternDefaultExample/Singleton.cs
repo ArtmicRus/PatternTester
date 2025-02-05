@@ -1,4 +1,4 @@
-﻿namespace Singleton.MetanitExamples.PatternDefaultExample
+﻿namespace Singleton.Examples.MetanitExamples.PatternDefaultExample
 {
     internal class Singleton
     {

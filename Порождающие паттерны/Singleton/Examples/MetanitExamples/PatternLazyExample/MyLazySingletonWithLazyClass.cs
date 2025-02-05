@@ -1,4 +1,4 @@
-﻿namespace Singleton.MetanitExamples.PatternLazyExample
+﻿namespace Singleton.Examples.MetanitExamples.PatternLazyExample
 {
     internal class MyLazySingletonWithLazyClass
     {
@@ -9,7 +9,7 @@
 
         private MyLazySingletonWithLazyClass()
         {
-            Name = System.Guid.NewGuid().ToString();
+            Name = Guid.NewGuid().ToString();
         }
 
         public static MyLazySingletonWithLazyClass GetInstance()

@@ -1,4 +1,4 @@
-﻿namespace Singleton.MetanitExamples.PatternLazyExample
+﻿namespace Singleton.Examples.MetanitExamples.PatternLazyExample
 {
     /// <summary>
     /// Реализация LazySingleton

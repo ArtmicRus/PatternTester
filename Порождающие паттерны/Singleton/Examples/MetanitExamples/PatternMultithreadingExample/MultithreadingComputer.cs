@@ -1,14 +1,14 @@
-﻿namespace Singleton.MetanitExamples.PatternSimpleExample
+﻿namespace Singleton.Examples.MetanitExamples.PatternMultithreadingExample
 {
     /// <summary>
     /// Компьютер
     /// </summary>
-    internal class Computer
+    internal class MultithreadingComputer
     {
         /// <summary>
         /// Поле операционной системы компьютера
         /// </summary>
-        public OS OS { get; set; }
+        public MultithreadingOS OS { get; set; }
 
         /// <summary>
         /// Запуск ОС
@@ -19,7 +19,7 @@
         /// <param name="osName">Имя ОС</param>
         public void Launch(string osName)
         {
-            OS = OS.getInstance(osName);
+            OS = MultithreadingOS.getInstance(osName);
         }
     }
 }

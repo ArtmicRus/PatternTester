@@ -1,4 +1,4 @@
-﻿namespace Singleton.MetanitExamples.PatternMultithreadingExample
+﻿namespace Singleton.Examples.MetanitExamples.PatternMultithreadingExample
 {
     /// <summary>
     /// Операционная система компьютера
@@ -18,7 +18,7 @@
         /// <summary>
         /// Объект который блокирует доступ к ОС во время работы с ней
         /// </summary>
-        private static object syncRoot = new Object();
+        private static object syncRoot = new object();
 
         /// <summary>
         /// Конструктор
