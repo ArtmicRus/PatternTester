@@ -1,5 +1,7 @@
 ﻿using PrototypePattern.Examples.Metanit.Example_1.Interfaces;
 using PrototypePattern.Examples.Metanit.Example_1.Realizations;
+using PrototypePattern.Examples.Youtube.BuilderLine.Interfaces;
+using PrototypePattern.Examples.Youtube.BuilderLine.Realizations;
 
 namespace PrototypePattern
 {
@@ -24,9 +26,13 @@ namespace PrototypePattern
 
             #endregion
 
-            #region Example 2
+            #region BuilderLine
 
+            IAnimal sheep = new Sheep();
+            sheep.SetName("Долли");
 
+            IAnimal sheepClone = sheep.Clone();
+            Console.WriteLine(sheep.GetName() + "    " + sheepClone.GetName());
 
             #endregion
 
