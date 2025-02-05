@@ -2,9 +2,9 @@
 
 namespace CompositePattern.Examples.Metanit.Realizations
 {
-    class File : Component
+    class MyFile : Component
     {
-        public File(string name)
+        public MyFile(string name)
                 : base(name)
         { }
     }

@@ -2,11 +2,11 @@
 
 namespace CompositePattern.Examples.Metanit.Realizations
 {
-    class Directory : Component
+    class MyDirectory : Component
     {
         private List<Component> components = new List<Component>();
 
-        public Directory(string name)
+        public MyDirectory(string name)
             : base(name)
         {
         }

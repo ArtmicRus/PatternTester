@@ -1,5 +1,4 @@
-﻿using IteratorPattern.Entities;
-using IteratorPattern.Examples.Metanit.Interfaces;
+﻿using IteratorPattern.Examples.Metanit.Interfaces;
 
 namespace IteratorPattern.Examples.Metanit.Entities
 {

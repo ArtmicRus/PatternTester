@@ -19,12 +19,12 @@ namespace CompositePattern
             // СТОИТ ЗАМЕТИТЬ ЧТО ЕСТЬ РЕАЛИЗАЦИЯ ЭТОГО ПАТТЕРНА В using System.ComponentModel;
             // Можно рассмотреть
 
-            Component fileSystem = new Directory("Файловая система");
+            Component fileSystem = new MyDirectory("Файловая система");
             // определяем новый диск
-            Component diskC = new Directory("Диск С");
+            Component diskC = new MyDirectory("Диск С");
             // новые файлы
-            Component pngFile = new File("12345.png");
-            Component docxFile = new File("Document.docx");
+            Component pngFile = new MyFile("12345.png");
+            Component docxFile = new MyFile("Document.docx");
             // добавляем файлы на диск С
             diskC.Add(pngFile);
             diskC.Add(docxFile);
@@ -36,10 +36,10 @@ namespace CompositePattern
             // удаляем с диска С файл
             diskC.Remove(pngFile);
             // создаем новую папку
-            Component docsFolder = new Directory("Мои Документы");
+            Component docsFolder = new MyDirectory("Мои Документы");
             // добавляем в нее файлы
-            Component txtFile = new File("readme.txt");
-            Component csFile = new File("Program.cs");
+            Component txtFile = new MyFile("readme.txt");
+            Component csFile = new MyFile("Program.cs");
             docsFolder.Add(txtFile);
             docsFolder.Add(csFile);
             diskC.Add(docsFolder);
