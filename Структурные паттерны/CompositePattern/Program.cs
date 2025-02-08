@@ -1,5 +1,7 @@
 ﻿using CompositePattern.Examples.Metanit.Abstractions;
 using CompositePattern.Examples.Metanit.Realizations;
+using CompositePattern.Examples.Youtube.BuilderLine.Abstractions;
+using CompositePattern.Examples.Youtube.BuilderLine.Realizations;
 
 namespace CompositePattern
 {
@@ -18,6 +20,8 @@ namespace CompositePattern
 
             // СТОИТ ЗАМЕТИТЬ ЧТО ЕСТЬ РЕАЛИЗАЦИЯ ЭТОГО ПАТТЕРНА В using System.ComponentModel;
             // Можно рассмотреть
+
+            #region Metanit
 
             Component fileSystem = new MyDirectory("Файловая система");
             // определяем новый диск
@@ -45,6 +49,42 @@ namespace CompositePattern
             diskC.Add(docsFolder);
 
             fileSystem.Print();
+
+            #endregion
+
+            #region BuilderLine
+            Console.WriteLine();
+
+            Item file = new DropDownItem("Файл->");
+
+            Item create = new DropDownItem("Создать->");
+            Item open = new DropDownItem("Открыть->");
+            Item exit = new ClicableItem("Выход");
+
+            file.Add(create);
+            file.Add(open);
+            file.Add(exit);
+
+            Item project = new ClicableItem("Проект...");
+            Item repository = new ClicableItem("Репозиторий...");
+
+            create.Add(project);
+            create.Add(repository);
+
+            Item solution = new ClicableItem("Решение...");
+            Item folder = new ClicableItem("Папка...");
+
+            open.Add(solution);
+            open.Add(folder);
+
+            file.Display();
+            Console.WriteLine();
+
+            file.Remove(create);
+
+            file.Display();
+
+            #endregion
         }
     }
 }
