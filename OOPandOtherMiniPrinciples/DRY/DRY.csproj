@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Examples\Youtube\Ulbi_TV\Polymorphism\" />
-  </ItemGroup>
-
 </Project>
