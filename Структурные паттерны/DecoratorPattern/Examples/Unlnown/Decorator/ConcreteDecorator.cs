@@ -1,6 +1,6 @@
-﻿using DecoratorPattern.Interfaces;
+﻿using DecoratorPattern.Examples.Unlnown.Interfaces;
 
-namespace DecoratorPattern.Decorator
+namespace DecoratorPattern.Examples.Unlnown.Decorator
 {
     /// <summary>
     /// Декоратор с дополнительной логикой

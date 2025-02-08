@@ -1,4 +1,4 @@
-﻿namespace DecoratorPattern.Interfaces
+﻿namespace DecoratorPattern.Examples.Unlnown.Interfaces
 {
     /// <summary>
     /// Интерфейс расширяемого функционала 

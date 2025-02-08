@@ -1,6 +1,6 @@
-﻿using DecoratorPattern.Interfaces;
+﻿using DecoratorPattern.Examples.Unlnown.Interfaces;
 
-namespace DecoratorPattern.BaseClasses
+namespace DecoratorPattern.Examples.Unlnown.BaseClasses
 {
     /// <summary>
     /// Класс который нуждается в дополнительном функционале
