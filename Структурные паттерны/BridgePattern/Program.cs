@@ -1,5 +1,7 @@
 ﻿using BridgePattern.Examples.Metanit.Abstractions;
 using BridgePattern.Examples.Metanit.Realizations;
+using BridgePattern.Examples.Youtube.BuilderLine.Abstractions;
+using BridgePattern.Examples.Youtube.BuilderLine.Realizations;
 
 namespace BridgePattern
 {
@@ -15,6 +17,8 @@ namespace BridgePattern
             // все наследуемые классы будут жестко привязаны к интерфейсу, определяемому в базовом абстрактном классе.
             // Для преодоления жестких связей и служит паттерн Мост.
 
+            #region Metanit
+
             // создаем нового программиста, он работает с с++
             Programmer freelancer = new FreelanceProgrammer(new CPPLanguage());
             freelancer.DoWork();
@@ -23,6 +27,21 @@ namespace BridgePattern
             freelancer.Language = new CSharpLanguage();
             freelancer.DoWork();
             freelancer.EarnMoney();
+
+            #endregion
+
+            #region BuilderLine
+
+            Sender sender = new EmailSender(new DatabaseReader());
+            sender.Send();
+
+            sender.SetDataReader(new FileReader());
+            sender.Send();
+
+            sender = new TelegramBotSender(new DatabaseReader());
+            sender.Send();
+
+            #endregion
         }
     }
 }
