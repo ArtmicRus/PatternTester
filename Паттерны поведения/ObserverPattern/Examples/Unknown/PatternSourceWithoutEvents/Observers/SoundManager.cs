@@ -1,7 +1,7 @@
-﻿using ObserverPattern.Interfaces;
-using ObserverPattern.PatternSourceWithoutEvents.Subject;
+﻿using ObserverPattern.Examples.Unknown.Interfaces;
+using ObserverPattern.Examples.Unknown.PatternSourceWithoutEvents.Subject;
 
-namespace ObserverPattern.PatternSourceWithoutEvents.Observers
+namespace ObserverPattern.Examples.Unknown.PatternSourceWithoutEvents.Observers
 {
     /// <summary>
     /// Звуковой менеджер наблюдающий за изменением здоровьем игрока

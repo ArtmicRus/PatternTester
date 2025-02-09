@@ -1,4 +1,4 @@
-﻿namespace ObserverPattern.Interfaces
+﻿namespace ObserverPattern.Examples.Unknown.Interfaces
 {
     /// <summary>
     /// Интерфейс рассыльного (тот за кем наблюдают)

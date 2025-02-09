@@ -1,4 +1,4 @@
-﻿namespace ObserverPattern.Interfaces
+﻿namespace ObserverPattern.Examples.Unknown.Interfaces
 {
     /// <summary>
     /// Интерфейс подписчика(наблюдателя) на(за) изменениями в другом классе

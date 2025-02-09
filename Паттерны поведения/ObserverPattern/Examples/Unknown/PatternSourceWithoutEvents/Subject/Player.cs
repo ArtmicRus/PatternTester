@@ -1,6 +1,6 @@
-﻿using ObserverPattern.Interfaces;
+﻿using ObserverPattern.Examples.Unknown.Interfaces;
 
-namespace ObserverPattern.PatternSourceWithoutEvents.Subject
+namespace ObserverPattern.Examples.Unknown.PatternSourceWithoutEvents.Subject
 {
     /// <summary>
     /// Сущность игрока за которой наблюдают
@@ -24,14 +24,14 @@ namespace ObserverPattern.PatternSourceWithoutEvents.Subject
         /// <summary>
         /// Здоровье игрока
         /// </summary>
-        public int Health 
-        { 
-            get => _health; 
+        public int Health
+        {
+            get => _health;
             set
             {
                 _health = value;
                 Notify();
-            } 
+            }
         }
 
         /// <summary>
