@@ -1,4 +1,4 @@
-﻿namespace TemplateMethod.Abstractions
+﻿namespace TemplateMethod.Examples.Unknown.Abstractions
 {
     abstract class Education
     {

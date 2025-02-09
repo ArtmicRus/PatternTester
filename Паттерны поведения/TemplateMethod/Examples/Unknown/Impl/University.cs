@@ -1,6 +1,6 @@
-﻿using TemplateMethod.Abstractions;
+﻿using TemplateMethod.Examples.Unknown.Abstractions;
 
-namespace TemplateMethod.Impl
+namespace TemplateMethod.Examples.Unknown.Impl
 {
     internal class University : Education
     {
