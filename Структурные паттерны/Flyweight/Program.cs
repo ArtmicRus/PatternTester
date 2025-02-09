@@ -1,5 +1,8 @@
 ﻿using Flyweight.Examples.Metanit.Abstractions;
 using Flyweight.Examples.Metanit.General;
+using Flyweight.Examples.Youtube.BuilderLine.Entity;
+using Flyweight.Examples.Youtube.BuilderLine.HelpMethods;
+using Flyweight.Examples.Youtube.BuilderLine.Structures;
 
 namespace Flyweight
 {
@@ -19,6 +22,8 @@ namespace Flyweight
             // А в тексте применить этот набор общих разделяемых символов, вместо сотен и тысяч объектов,
             // которые могли бы использоваться в тексте. И как следствие подобного подхода будет уменьшение
             // количества используемых объектов и уменьшение используемой памяти.
+
+            #region Metanit
 
             double longitude = 37.61;
             double latitude = 55.74;
@@ -41,6 +46,26 @@ namespace Flyweight
                 longitude += 0.1;
                 latitude += 0.1;
             }
+
+            #endregion
+
+            #region BuilderLine
+
+            FlyweightFactory factory = new FlyweightFactory(new List<Shared>()
+            {
+                new Shared("Microsoft", "Управляющий"),
+                new Shared("Google", "Android-разработчик"),
+                new Shared("Google", "WEB-разработчик"),
+                new Shared("Apple", "IPhone-разработчик"),
+            });
+
+            factory.ListFlyweight();
+            FlyweightHelper.AddSpecialistDatabase(factory, "Google", "WEB-разработчик", "Борис", "АМ-17234332");
+            FlyweightHelper.AddSpecialistDatabase(factory, "Apple", "Управляющий", "Александр", "DE-2211032");
+
+            factory.ListFlyweight();
+
+            #endregion
         }
     }
 }
