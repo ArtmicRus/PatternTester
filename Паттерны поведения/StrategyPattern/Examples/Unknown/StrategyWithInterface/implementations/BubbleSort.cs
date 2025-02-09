@@ -1,6 +1,6 @@
-﻿using StrategyPattern.StrategyWithInterface.Interfaces;
+﻿using StrategyPattern.Examples.Unknown.StrategyWithInterface.Interfaces;
 
-namespace StrategyPattern.StrategyWithInterface.implementations
+namespace StrategyPattern.Examples.Unknown.StrategyWithInterface.implementations
 {
     /// <summary>
     /// Сортировка пузырьком

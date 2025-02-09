@@ -1,4 +1,4 @@
-﻿namespace StrategyPattern.StrategyWithInterface.Interfaces
+﻿namespace StrategyPattern.Examples.Unknown.StrategyWithInterface.Interfaces
 {
     /// <summary>
     /// Интерфейс для стратегий сортировки

@@ -1,6 +1,6 @@
-﻿using StrategyPattern.StrategyWithInterface.Interfaces;
+﻿using StrategyPattern.Examples.Unknown.StrategyWithInterface.Interfaces;
 
-namespace StrategyPattern.StrategyWithInterface
+namespace StrategyPattern.Examples.Unknown.StrategyWithInterface
 {
     /// <summary>
     /// Объект человека занимающегося сортировкой
